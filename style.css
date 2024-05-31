@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background: url('./car.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 250px 20px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0 0 10px;
+}
+
+.header p {
+    font-size: 1.5em;
+    margin: 0 0 20px;
+}
+
+.cta-button {
+    background: #e91e63;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.about, .schedule, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2, .schedule h2, .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.schedule ul {
+    list-style: none;
+    padding: 0;
+}
+
+.schedule li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #e91e63;
+    text-decoration: none;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
